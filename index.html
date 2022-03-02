@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <form action="">
+      <div class="question">
+        <label for="question1"
+          >En fait, quand j'y pense, c'est toi qui avais raison.
+          <select id="question1" class="choices">
+            <option value="autant" name="q1">Autant pour moi</option>
+            <option value="auTemps" name="q1">Au temps pour moi</option>
+            <option value="auTant" name="q1">Au tant pour moi</option>
+          </select>
+          !</label
+        >
+      </div>
+      <div class="question">
+        <label for="question2"
+          >Maintenant que les invités
+          <select id="question2" class="choices">
+            <option value="sontEnAlles" name="q2">sont en allés</option>
+            <option value="sEnSontAlles" name="q2">s'en sont allés</option>
+            <option value="seSontEnAlles" name="q2">
+              se sont en allés
+            </option></select
+          >, nous pouvons commencer à nettoyer.</label
+        >
+      </div>
+      <div class="question">
+        <label for="question3"
+          >Moins de deux candidats
+          <select id="question3" class="choices">
+            <option value="ontReussi" name="q3">ont réussi</option>
+            <option value="aReussi" name="q3">a réussi</option>
+            <option value="aReussie" name="q3">a réussie</option>
+          </select>
+          l'épreuve.</label
+        >
+      </div>
+      <div class="question">
+        <label for="question4">
+          <select id="question4" class="choices">
+            <option value="assures-toiEst" name="q4">
+              Assures-toi que la porte est bien fermée.
+            </option>
+            <option value="assure-toiEst" name="q4">
+              Assure-toi que la porte est bien fermée.
+            </option>
+            <option value="assuresToiSoit" name="q4">
+              Assures toi que la porte soit bien fermée.
+            </option>
+            <option value="assureToiSoit" name="q4">
+              Assure toi que la porte soit bien fermée.
+            </option>
+          </select></label
+        >
+      </div>
+      <div class="question">
+        <label for="question5"
+          >Êtes-vous celui qui
+          <select id="question5" class="choices">
+            <option value="avez" name="q5">avez</option>
+            <option value="a" name="q5">a</option>
+          </select>
+          remporté l'épreuve ?</label
+        >
+      </div>
+      <div>
+        <button type="submit">Valider</button>
+      </div>
+      <div>
+        <h2 class="comment">
+          Cliquez sur « Valider » pour voir les résultats.
+        </h2>
+        <p class="result"></p>
+      </div>
+    </form>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
